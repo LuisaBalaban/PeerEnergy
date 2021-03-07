@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500;700&family=Open+Sans&display=swap');
+
+nav{
+    background-color: #C4C4C4;
+    position: fixed;
+    z-index: 1;
+    width:100%;
+}
+
+
+ul{
+    color:black;
+    text-decoration: none;
+    margin:0;
+    padding: 0;
+    margin: 0 auto;
+    text-align:center;
+    padding:30px;
+    list-style: none;
+    margin: 10px 0;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+li{
+    margin-left: 20px;
+}
+nav li a:hover{
+    text-decoration: underline;
+}
+li.empty
+{
+    width:90px;
+    border-top:1px solo;
+    top :10px;
+    position:relative;;
+}
+nav ul li{
+    display: inline-block;
+    margin:0 15 px;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    color:black;
+    text-decoration: none;
+}
+nav ul{
+    margin: 0 auto;
+    text-align:center;
+    padding:30px;
+}
+header{
+    top: 80px;
+    position: relative;
+    /* margin-bottom: 220px; */
+    /* background-color: #C4C4C4; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position:-100px; */
+    background-image: 100px;
+    margin-bottom: 90px;
+    
+}
+
+.intro-img{
+    max-width: 120%;
+    margin-top: 10%;
+}
+body{
+    margin:0;
+    padding: 0;
+}
+nav li a:hover{
+    text-decoration: underline;
+}
+image{
+
+    max-width: 100%;
+}
+h1{
+    font-size: 100px;
+    line-height: 130%;
+    font-weight: normal;
+    font-family: 'Mulish', sans-serif;
+}
+h2{
+    font-family: 'Mulish', sans-serif;
+}
+nav p{
+    display: inline-block;
+    margin:0 15 px;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+p{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    float: left;
+    
+}
+.welcomeArea
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position:-100px; */
+    background-image: 00px;
+
+    /* background-color: #C4C4C4; */
+    
+    width: 100%;
+    overflow:visible;
+
+}
+#header
+{
+    width: 100%;
+
+}
+
+/* introduction */
+.introduction
+{
+    background-color:#E5E5E5 ;
+    margin-top: 50px;
+    font-family: 'Mulish', sans-serif;
+}
+.intro-img{
+    max-width: 120%;
+    margin-top: 10%;
+}
+.introduction p{
+    font-size: 15px;
+}
+.seatImg{
+    margin-top: 10%;
+}
+.intro-img h3{
+    font-size: 20px;
+}
+/* summary */
+.summary{
+    background-color:#E5E5E5 ;
+
+    font-family: 'Mulish', sans-serif; 
+}
+.pieChartImg{
+    max-width: 100%;
+    margin-top: 10%;
+}
+.merchantButtons{
+    position: relative;
+    background: #FFFFFF;
+    margin-top: 15%;
+    width:500px;
+    height:300px;
+    margin-left: 10px;
+
+/* drop shadow */
+box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+border-radius: 20px;
+}
+.button:hover{opacity: 0.6}
+  li:hover{
+   font-weight:bolder;
+}
+.merchantImages
+{
+    position: absolute;
+    bottom: auto;
+    top: 61px;
+    left: 38px;
+}
+.merchantButtons p{
+    font-size: 15px;
+    align-items: left;
+    padding-top: -15px;
+    display: flex;
+    font-family: 'Mulish', sans-serif;
+}
+.btnText{
+    position:20px;
+    padding-top: 100px;
+    align-items: left;
+}
+/* services */
+.centeredButtons{
+   margin-left: 400px;
+}
+.producers{
+    background: #FFFFFF;
+    margin-top: 10%;
+    width:250px;
+    height:250px;
+    margin-left: 10px;
+}
+.serviceButtons{
+    position: relative;
+    background: #FFFFFF;
+    margin-top: 10%;
+    width:250px;
+    height:250px;
+    margin-left: 10px;
+    font-size: 12px;
+
+/* drop shadow */
+box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+border-radius: 20px;
+align-items: center;
+}
+.services h2{
+    text-align: center;
+    /* margin-top: 100px; */
+    
+}
+.serviceButtons{
+    margin-right: 10px;
+}
+.buttonsClass{
+    margin-left: 380px;
+}
+.services{
+    align-items: center;
+    top: 50%; 
+    left: 50%; 
+    display: block;
+    margin-bottom: 20px;
+
+}
+
+/* marketplace/ */
+
+/* footer */
+footer{
+    background: #575758;
+    height: 432px;
+    left: 0px;
+    top: 5438px;
+    background: #39374D;
+}
+footer h2{
+    left: 16.25%;
+right: 71.69%;
+top: 94.75%;
+bottom: 4.74%;
+font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
+mix-blend-mode: normal;
+margin-top: 50px;
+    
+}
+footer p a{
+    position: absolute;
+
+
+font-family: Mulish;
+font-style: normal;
+font-weight: 300;
+font-size: 21px;
+line-height: 32px;
+color: #FFFFFF;
+
+}
+.footerWhite{
+    color: rgb(105, 105, 105);
+    font-family: 'Mulish', sans-serif;
+}
+#servicesHeader{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: 'Mulish', sans-serif;
+    
+}
+/* userProfile */
+#accountHeader{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: 'Mulish', sans-serif;
+
+
+}
+.keyImg{
+    max-width: 150%;
+    margin-top: 10%;
+}
+.accountDetails{
+    justify-content: right;
+}
+
+/* account */
+.accountDetails{
+    background-color:#E5E5E5 ;
+    margin-top: 60px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 12px;
+   float:left;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+.value{
+    font-size: 12px;
+    color: rgb(109, 109, 109);
+}
+.account{
+    margin-top: 100px;
+}
+.account h2{
+    margin-bottom: 20px;
+}
+.textService{
+    font-size: 12px;
+}
